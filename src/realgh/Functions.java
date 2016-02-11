@@ -11,7 +11,7 @@ public class Functions {
 	int[][] WS; //Warehouse Storage
 	int[][] WC; //Warehouse Coordinates
 	Order[] ORDLIST; //Orders
-	
+	public Drone[] DRONES; 
 	
 	
 	public void readInput(){
@@ -60,7 +60,12 @@ public class Functions {
             System.out.println("Could not open file due to"); System.out.println(e); 
             return;
 	}
-}	
+		
+	
+	}	
+	
+	
+		
 
 	
 	
@@ -83,3 +88,4 @@ public class Functions {
 		}
 	}
 }
+
